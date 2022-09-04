@@ -2,6 +2,12 @@
 this repo is about demo and evaluation on interpreting image-based malware dataset on machine-learning by varities of explaining methods.
 ## main branch
 this branch merged by lester branch, which mainly contributes to all work depicted in the paper.
+## lester branch
+this branch contains main interpretable methods newly proposed in the academical area.
+## all code and used datasets for IEMD and relative researches
+left on the baidu dist https://pan.baidu.com/s/1qXfiPg_QE_t46dlsG5tbWg
+passwd:`37eq`
+
 ## git usage
 * init your local repo, this allows you to make your personal file folders to become a repo
 `git init`
