@@ -19,8 +19,19 @@ passwd: 37eq
 Inside our entire work, in baidu cloud dst, we have everything required for you to conduct an entire demo for deeply understand our work.
 ### IEMD
 ####contribution
-1)ensemble-learning architecture
-2)deep Taylor decomposition embedded on ensemble structure with/without reweighting technique
-3)iDrop normalization technique here adjusted the parameter with 0.6, according to the tuning process depicted in ariticle
+*ensemble-learning architecture
+*deep Taylor decomposition embedded on ensemble structure with/without reweighting technique
+*iDrop normalization technique here adjusted the parameter with 0.6, according to the tuning process depicted in ariticle
 Lin, Y., & Chang, X. (2021). Towards Interpretable Ensemble Learning for Image-based Malware Detection. arXiv preprint arXiv:2101.04889.
-####some evaluation metrics and relative histograms
+*detailed tuning curves here
+![image]()
+####our framework
+![image](https://github.com/LIN-ALOHA/yuzhoulin_project/blob/lester/IEMD_framework.png)
+####our metrics and relative evaluation experiment results
+methods|accuracy|precision rate|recall rate|f1-score
+------|-------|-------|----|----
+IMCFN(DL)|0.98|0.98|0.98|0.98
+dl|0.97|n/a|0.88|n/a
+knn on GIST features|0.97|n/a|n/a|n/a
+cnn+svm on entropy graphs|0.99|n/a|n/a|0.99
+IEMD(our work)|0.99|0.99|0.99|0.99
